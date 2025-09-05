@@ -1,6 +1,6 @@
 # 3-DOF Robotic Arm (ROS2 + MoveIt + Arduino)
 
-A custom-built **3-DOF robotic manipulator** created with **3D printed parts**, Arduino for servo control, and ROS2/MoveIt for kinematics and trajectory planning. This project was inspired by [this Udemy course](https://www.udemy.com/course/robotics-and-ros-2-learn-by-doing-manipulators/), but extended with custom design and teleoperation features.
+A custom-built **3-DOF robotic manipulator** created with **3D printed parts**, Arduino for servo control, and ROS2/MoveIt for kinematics and trajectory planning. This project was inspired by [this Udemy course](https://www.udemy.com/course/robotics-and-ros-2-learn-by-doing-manipulators/) by Antonio Brandi, but extended with custom design and teleoperation features.
 
 ---
 
