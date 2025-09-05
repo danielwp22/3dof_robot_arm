@@ -1,0 +1,22 @@
+[  5%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[ 10%] [32m[1mLinking CXX executable simple_publisher[0m
+[ 10%] Built target simple_publisher
+[ 15%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable simple_service_server[0m
+[ 20%] Built target simple_service_server
+[ 25%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[ 30%] [32m[1mLinking CXX executable simple_service_client[0m
+[ 30%] Built target simple_service_client
+[ 35%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+[ 40%] Built target simple_action_server
+[ 45%] [32mBuilding CXX object CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable simple_action_server_node[0m
+[ 50%] Built target simple_action_server_node
+[ 55%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libsimple_action_client.so[0m
+[ 60%] Built target simple_action_client
+[ 65%] [32mBuilding CXX object CMakeFiles/simple_action_client_node.dir/rclcpp_components/node_main_simple_action_client_node.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable simple_action_client_node[0m
+[ 70%] Built target simple_action_client_node
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m

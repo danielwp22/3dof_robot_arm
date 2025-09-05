@@ -1,0 +1,15 @@
+[0.065s] Invoking command in '/home/danielwp22/arduinobot_ws/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_moveit:/home/danielwp22/arduinobot_ws/install/arduinobot_msgs:/home/danielwp22/arduinobot_ws/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_moveit:/home/danielwp22/arduinobot_ws/install/arduinobot_msgs:/home/danielwp22/arduinobot_ws/install/arduinobot_description:/home/danielwp22/ros2_ws/install/my_robot_bringup:/home/danielwp22/ros2_ws/install/my_final_project:/home/danielwp22/ros2_ws/install/my_cpp_pkg:/home/danielwp22/ros2_ws/install/actions_cpp:/home/danielwp22/ros2_ws/install/my_robot_interfaces:/home/danielwp22/ros2_ws/install/my_robot_description:/home/danielwp22/ros2_ws/install/my_robot_arm_description:/home/danielwp22/ros2_ws/install/lifecycle_cpp:/home/danielwp22/ros2_ws/install/components_cpp:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/danielwp22/arduinobot_ws/build/arduinobot_remote -- -j4 -l4
+[0.265s] [ 25%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[0.306s] [ 50%] [32mBuilding CXX object CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.o[0m
+[0.326s] [ 50%] Built target ament_cmake_python_copy_arduinobot_remote
+[1.269s] running egg_info
+[1.418s] writing arduinobot_remote.egg-info/PKG-INFO
+[1.419s] writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+[1.419s] writing top-level names to arduinobot_remote.egg-info/top_level.txt
+[1.778s] reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[1.788s] writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[1.904s] [ 50%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[6.501s] [ 75%] [32m[1mLinking CXX executable task_server_node[0m
+[6.712s] [ 75%] Built target task_server_node
+[15.436s] [100%] [32m[1mLinking CXX shared library libtask_server.so[0m
+[18.021s] [100%] Built target task_server

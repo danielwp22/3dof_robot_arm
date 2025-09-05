@@ -1,0 +1,91 @@
+[0.486s] Invoking command in '/home/danielwp22/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/danielwp22/arduinobot_ws/src/arduinobot_firmware -DCMAKE_INSTALL_PREFIX=/home/danielwp22/arduinobot_ws/install/arduinobot_firmware
+[2.590s] -- The C compiler identification is GNU 13.3.0
+[7.764s] -- The CXX compiler identification is GNU 13.3.0
+[8.583s] -- Detecting C compiler ABI info
+[9.303s] -- Detecting C compiler ABI info - done
+[9.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.398s] -- Detecting C compile features
+[9.401s] -- Detecting C compile features - done
+[9.592s] -- Detecting CXX compiler ABI info
+[10.555s] -- Detecting CXX compiler ABI info - done
+[10.568s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.569s] -- Detecting CXX compile features
+[10.570s] -- Detecting CXX compile features - done
+[13.012s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[13.836s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[17.113s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[18.482s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[18.752s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[19.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.593s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[23.108s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[27.048s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[27.175s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[27.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.956s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[31.267s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[31.272s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[31.272s] -- Checking for module 'libserial'
+[31.306s] --   Found libserial, version 1.0.0
+[31.896s] -- Configuring done (31.4s)
+[31.941s] -- Generating done (0.0s)
+[31.949s] -- Build files have been written to: /home/danielwp22/arduinobot_ws/build/arduinobot_firmware
+[31.966s] Invoked command in '/home/danielwp22/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/danielwp22/arduinobot_ws/src/arduinobot_firmware -DCMAKE_INSTALL_PREFIX=/home/danielwp22/arduinobot_ws/install/arduinobot_firmware
+[31.966s] Invoking command in '/home/danielwp22/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/danielwp22/arduinobot_ws/build/arduinobot_firmware -- -j4 -l4
+[32.077s] [  0%] Built target ament_cmake_python_copy_arduinobot_firmware
+[32.112s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[42.998s] [ 50%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[44.504s] [ 50%] Built target simple_serial_transmitter
+[44.951s] running egg_info
+[44.952s] creating arduinobot_firmware.egg-info
+[44.996s] writing arduinobot_firmware.egg-info/PKG-INFO
+[44.996s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[44.996s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[44.996s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[45.119s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[45.120s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[45.163s] [ 50%] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[45.197s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[50.631s] [100%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[50.878s] [100%] Built target simple_serial_receiver
+[50.894s] Invoked command in '/home/danielwp22/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/danielwp22/arduinobot_ws/build/arduinobot_firmware -- -j4 -l4
+[50.895s] Invoking command in '/home/danielwp22/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/danielwp22/arduinobot_ws/build/arduinobot_firmware
+[50.908s] -- Install configuration: ""
+[50.908s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.sh
+[50.908s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.dsv
+[50.908s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware-0.0.0-py3.12.egg-info
+[50.909s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[50.909s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[50.909s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[50.909s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[50.909s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware
+[50.909s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_transmitter.py
+[50.910s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_receiver.py
+[50.910s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/__init__.py
+[50.962s] Listing '/home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware'...
+[50.962s] Compiling '/home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/__init__.py'...
+[50.962s] Compiling '/home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_receiver.py'...
+[50.962s] Compiling '/home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/python3.12/site-packages/arduinobot_firmware/simple_serial_transmitter.py'...
+[50.970s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver
+[50.972s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver" to ""
+[50.972s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter
+[50.978s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter" to ""
+[50.978s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+[50.978s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver.py
+[50.980s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[50.982s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[50.982s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[50.982s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[50.982s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[50.982s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[50.982s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[50.982s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[50.983s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[50.983s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[50.983s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[50.983s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[50.984s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[50.984s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[50.984s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[50.984s] Invoked command in '/home/danielwp22/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/danielwp22/arduinobot_ws/build/arduinobot_firmware

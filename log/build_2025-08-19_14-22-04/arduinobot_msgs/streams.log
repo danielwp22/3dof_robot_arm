@@ -1,0 +1,304 @@
+[1.004s] Invoking command in '/home/danielwp22/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/danielwp22/arduinobot_ws/build/arduinobot_msgs -- -j4 -l4
+[4.504s] [  1%] Built target arduinobot_msgs__rosidl_generator_type_description
+[6.973s] [  1%] Built target ament_cmake_python_copy_arduinobot_msgs
+[8.139s] [ 24%] Built target arduinobot_msgs__rosidl_generator_c
+[9.636s] running egg_info
+[9.735s] writing arduinobot_msgs.egg-info/PKG-INFO
+[9.735s] writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+[9.739s] writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+[10.056s] reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[10.073s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[10.117s] [ 24%] Built target ament_cmake_python_build_arduinobot_msgs_egg
+[10.646s] [ 33%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[11.348s] [ 43%] Built target arduinobot_msgs__rosidl_typesupport_c
+[11.598s] [ 44%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[19.302s] [ 45%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support_c.cpp.o[0m
+[20.232s] [ 47%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[21.528s] [ 48%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_msgs/action/detail/arduinobot_task__type_support_c.cpp.o[0m
+[22.765s] [ 50%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support_c.cpp.o[0m
+[23.656s] [ 51%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[25.720s] [ 52%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[26.009s] [ 54%] Built target arduinobot_msgs__cpp
+[26.461s] [ 55%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[27.513s] [ 56%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[28.072s] [ 58%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[28.585s] [ 59%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_msgs/action/fibonacci__type_support.cpp.o[0m
+[32.263s] [ 60%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arduinobot_msgs/action/arduinobot_task__type_support.cpp.o[0m
+[33.293s] [ 62%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_cpp.so[0m
+[34.169s] [ 63%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[34.892s] [ 64%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[35.784s] [ 66%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.cpp.o[0m
+[36.791s] [ 67%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[38.164s] [ 68%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_msgs/action/detail/arduinobot_task__type_support.cpp.o[0m
+[39.799s] [ 70%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.cpp.o[0m
+[40.482s] [ 71%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[41.305s] [ 72%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[41.710s] [ 74%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[42.902s] [ 75%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[44.448s] [ 77%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/action/detail/dds_fastrtps/arduinobot_task__type_support.cpp.o[0m
+[46.244s] [ 78%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o[0m
+[46.966s] [ 79%] [32mBuilding CXX object CMakeFiles/arduinobot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o[0m
+[47.759s] [ 81%] [32m[1mLinking CXX shared library libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[48.101s] [ 82%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[48.310s] [ 82%] Built target arduinobot_msgs
+[48.464s] [ 83%] Built target arduinobot_msgs__py
+[48.588s] [ 85%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_msgs/srv/_add_two_ints_s.c.o[0m
+[50.032s] [ 86%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_msgs/action/_fibonacci_s.c.o[0m
+[50.316s] [ 87%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_msgs/action/_arduinobot_task_s.c.o[0m
+[50.574s] [ 89%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_msgs/srv/_quaternion_to_euler_s.c.o[0m
+[50.831s] [ 90%] [32mBuilding C object CMakeFiles/arduinobot_msgs__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_msgs/srv/_euler_to_quaternion_s.c.o[0m
+[51.028s] [ 91%] [32m[1mLinking C shared library libarduinobot_msgs__rosidl_generator_py.so[0m
+[52.440s] [ 91%] Built target arduinobot_msgs__rosidl_generator_py
+[52.856s] [ 93%] [32mBuilding C object CMakeFiles/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[53.173s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[53.247s] [ 94%] Built target arduinobot_msgs_s__rosidl_typesupport_fastrtps_c
+[53.393s] [ 95%] [32mBuilding C object CMakeFiles/arduinobot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[53.627s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.so[0m
+[53.685s] [ 97%] Built target arduinobot_msgs_s__rosidl_typesupport_c
+[53.790s] [ 98%] [32mBuilding C object CMakeFiles/arduinobot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[54.114s] [100%] [32m[1mLinking C shared module rosidl_generator_py/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[54.404s] [100%] Built target arduinobot_msgs_s__rosidl_typesupport_introspection_c
+[54.436s] Invoked command in '/home/danielwp22/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/danielwp22/arduinobot_ws/build/arduinobot_msgs -- -j4 -l4
+[54.455s] Invoking command in '/home/danielwp22/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/danielwp22/arduinobot_ws/build/arduinobot_msgs
+[54.505s] -- Install configuration: ""
+[54.505s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/rosidl_interfaces/arduinobot_msgs
+[54.506s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts.json
+[54.506s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/EulerToQuaternion.json
+[54.506s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/QuaternionToEuler.json
+[54.506s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/action/Fibonacci.json
+[54.506s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/action/ArduinobotTask.json
+[54.507s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs
+[54.507s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action
+[54.507s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.h
+[54.507s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/fibonacci.h
+[54.507s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail
+[54.507s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__description.c
+[54.507s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__functions.c
+[54.507s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__type_support.h
+[54.508s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__type_support.c
+[54.531s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__functions.h
+[54.531s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.c
+[54.590s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__struct.h
+[54.591s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.h
+[54.591s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__functions.h
+[54.592s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__description.c
+[54.592s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__functions.c
+[54.592s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.h
+[54.592s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv
+[54.592s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/euler_to_quaternion.h
+[54.593s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/add_two_ints.h
+[54.593s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/quaternion_to_euler.h
+[54.593s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail
+[54.593s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.c
+[54.647s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__functions.c
+[54.648s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__functions.c
+[54.648s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__type_support.c
+[54.663s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__struct.h
+[54.664s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__struct.h
+[54.664s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__description.c
+[54.664s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__functions.h
+[54.665s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__functions.h
+[54.665s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__functions.h
+[54.665s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__struct.h
+[54.666s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__functions.c
+[54.666s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.h
+[54.666s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__description.c
+[54.666s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.h
+[54.667s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__description.c
+[54.667s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.c
+[54.701s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__type_support.h
+[54.701s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg
+[54.702s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_c__visibility_control.h
+[54.702s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/library_path.sh
+[54.702s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/library_path.dsv
+[54.799s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_c.so
+[54.800s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs
+[54.801s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action
+[54.801s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail
+[54.802s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__rosidl_typesupport_fastrtps_c.h
+[54.802s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[54.802s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv
+[54.803s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail
+[54.803s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_c.h
+[54.803s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_c.h
+[54.804s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[54.804s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg
+[54.804s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[54.949s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so
+[54.952s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[54.952s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs
+[54.953s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action
+[54.954s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/fibonacci.hpp
+[54.954s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.hpp
+[54.955s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail
+[54.955s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__traits.hpp
+[54.956s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp
+[54.957s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp
+[54.958s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__type_support.hpp
+[54.959s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp
+[54.959s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__builder.hpp
+[54.959s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__struct.hpp
+[54.960s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp
+[54.960s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv
+[54.960s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/add_two_ints.hpp
+[54.961s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/quaternion_to_euler.hpp
+[54.961s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/euler_to_quaternion.hpp
+[54.961s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail
+[54.962s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__builder.hpp
+[54.962s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.hpp
+[54.962s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__struct.hpp
+[54.962s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.hpp
+[54.963s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__struct.hpp
+[54.963s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__builder.hpp
+[54.963s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__type_support.hpp
+[54.964s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__traits.hpp
+[54.964s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__struct.hpp
+[54.964s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__traits.hpp
+[54.965s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__builder.hpp
+[54.965s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__traits.hpp
+[54.965s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg
+[54.966s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[54.966s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs
+[54.966s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action
+[54.967s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail
+[54.967s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/dds_fastrtps
+[54.967s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__rosidl_typesupport_fastrtps_cpp.hpp
+[54.967s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[54.968s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv
+[54.968s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail
+[54.968s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/dds_fastrtps
+[54.969s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[54.969s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[54.969s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[54.970s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg
+[54.970s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[54.985s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[54.988s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[54.988s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs
+[54.988s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action
+[54.988s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail
+[54.989s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__type_support.c
+[55.023s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__rosidl_typesupport_introspection_c.h
+[55.024s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[55.024s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.c
+[55.061s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv
+[55.062s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail
+[55.062s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.c
+[55.081s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__type_support.c
+[55.091s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+[55.092s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[55.092s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.c
+[55.183s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+[55.184s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg
+[55.184s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[55.240s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_c.so
+[55.294s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_c.so
+[55.296s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs
+[55.296s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action
+[55.296s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail
+[55.297s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__rosidl_typesupport_introspection_cpp.hpp
+[55.298s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.cpp
+[55.298s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[55.298s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/fibonacci__type_support.cpp
+[55.299s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv
+[55.299s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail
+[55.299s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__type_support.cpp
+[55.300s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__type_support.cpp
+[55.300s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[55.300s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__type_support.cpp
+[55.301s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_cpp.hpp
+[55.301s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_cpp.hpp
+[55.390s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so
+[55.393s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[55.433s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so
+[55.438s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so" to ""
+[55.439s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/pythonpath.sh
+[55.439s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/pythonpath.dsv
+[55.440s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs-0.0.0-py3.12.egg-info
+[55.440s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[55.440s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[55.440s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[55.441s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[55.441s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs
+[55.441s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/action
+[55.441s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/action/_arduinobot_task_s.c
+[55.441s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/action/_fibonacci_s.c
+[55.442s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/action/__init__.py
+[55.442s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/action/_fibonacci.py
+[55.442s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/action/_arduinobot_task.py
+[55.442s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv
+[55.442s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv/_add_two_ints.py
+[55.442s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv/_add_two_ints_s.c
+[55.442s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv/_quaternion_to_euler.py
+[55.442s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv/__init__.py
+[55.443s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv/_euler_to_quaternion.py
+[55.443s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv/_euler_to_quaternion_s.c
+[55.443s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv/_quaternion_to_euler_s.c
+[55.443s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.so
+[55.443s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[55.443s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[55.443s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/__init__.py
+[55.443s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[55.444s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.so
+[55.444s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/_arduinobot_msgs_s.ep.rosidl_typesupport_c.c
+[55.615s] Listing '/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs'...
+[55.615s] Listing '/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/action'...
+[55.615s] Listing '/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/srv'...
+[55.623s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[55.624s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[55.624s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.so
+[55.625s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[55.625s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.so
+[55.626s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages/arduinobot_msgs/arduinobot_msgs_s__rosidl_typesupport_c.so" to ""
+[55.726s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so
+[55.729s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so" to ""
+[55.730s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts.idl
+[55.731s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/EulerToQuaternion.idl
+[55.731s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/QuaternionToEuler.idl
+[55.732s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/action/Fibonacci.idl
+[55.733s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/action/ArduinobotTask.idl
+[55.734s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/AddTwoInts.srv
+[55.734s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/EulerToQuaternion.srv
+[55.734s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/srv/QuaternionToEuler.srv
+[55.735s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/action/Fibonacci.action
+[55.735s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/action/ArduinobotTask.action
+[55.735s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs
+[55.735s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/parent_prefix_path/arduinobot_msgs
+[55.736s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.sh
+[55.736s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.dsv
+[55.736s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.sh
+[55.737s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.dsv
+[55.737s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.bash
+[55.737s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.sh
+[55.738s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.zsh
+[55.738s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.dsv
+[55.738s] -- Installing: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.dsv
+[55.813s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/packages/arduinobot_msgs
+[55.836s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cExport.cmake
+[55.836s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cExport-noconfig.cmake
+[55.837s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[55.837s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[55.839s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_cppExport.cmake
+[55.839s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[55.839s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[55.840s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[55.840s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[55.840s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cExport.cmake
+[55.840s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[55.840s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[55.841s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[55.841s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cppExport.cmake
+[55.841s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_pyExport.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/export_arduinobot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake-extras.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[55.842s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[55.843s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig.cmake
+[55.843s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig-version.cmake
+[55.843s] -- Up-to-date: /home/danielwp22/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.xml
+[55.866s] Invoked command in '/home/danielwp22/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/danielwp22/arduinobot_ws/build/arduinobot_msgs

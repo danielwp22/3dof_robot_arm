@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3d962aee5595d882b431.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "arduinobot_msgs__py",
+					"jsonFile" : "directory-arduinobot_msgs__py-091c046d32a19d40c5a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/danielwp22/arduinobot_ws/build/arduinobot_msgs/arduinobot_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "arduinobot_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arduinobot_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arduinobot_msgs_egg-1089b8691085553e75cc.json",
+					"name" : "ament_cmake_python_build_arduinobot_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_arduinobot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_arduinobot_msgs-12eddfdc933e63d47140.json",
+					"name" : "ament_cmake_python_copy_arduinobot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs-15c6c77f412fbb5dd522.json",
+					"name" : "arduinobot_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__cpp-bc0ad9d89e0512e4c615.json",
+					"name" : "arduinobot_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "arduinobot_msgs__py::@4672ffc6f89ba930700c",
+					"jsonFile" : "target-arduinobot_msgs__py-bed64aabe451dc6d90a9.json",
+					"name" : "arduinobot_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_generator_c-48447fdce3716b9876dd.json",
+					"name" : "arduinobot_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_generator_py-fa43d5df986f6243302f.json",
+					"name" : "arduinobot_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_generator_type_description-caed2263b0623893f306.json",
+					"name" : "arduinobot_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_typesupport_c-0fde993ac8895cd30233.json",
+					"name" : "arduinobot_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_typesupport_cpp-17ef1e275cdc26beb811.json",
+					"name" : "arduinobot_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_typesupport_fastrtps_c-45b57371fbc6f092b718.json",
+					"name" : "arduinobot_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_typesupport_fastrtps_cpp-62df86990fcfd02c0b2a.json",
+					"name" : "arduinobot_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_typesupport_introspection_c-0b85fdc1f20245157ac4.json",
+					"name" : "arduinobot_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs__rosidl_typesupport_introspection_cpp-2a70b1893b653eaa766b.json",
+					"name" : "arduinobot_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs_s__rosidl_typesupport_c-1904d3a164fb6ef2d47a.json",
+					"name" : "arduinobot_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs_s__rosidl_typesupport_fastrtps_c-fec677bd35efead710d5.json",
+					"name" : "arduinobot_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs_s__rosidl_typesupport_introspection_c-761a81cd0591ce8c8d5d.json",
+					"name" : "arduinobot_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_msgs_uninstall-4b0123359ff077b07607.json",
+					"name" : "arduinobot_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-44fe289356ad46833ca0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/danielwp22/arduinobot_ws/build/arduinobot_msgs",
+		"source" : "/home/danielwp22/arduinobot_ws/src/arduinobot_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

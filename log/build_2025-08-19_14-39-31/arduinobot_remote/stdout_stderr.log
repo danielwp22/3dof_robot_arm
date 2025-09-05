@@ -1,0 +1,14 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_arduinobot_remote
+running egg_info
+writing arduinobot_remote.egg-info/PKG-INFO
+writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+writing top-level names to arduinobot_remote.egg-info/top_level.txt
+reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[ 75%] [32m[1mLinking CXX executable task_server_node[0m
+[ 75%] Built target task_server_node
+[100%] [32m[1mLinking CXX shared library libtask_server.so[0m
+[100%] Built target task_server

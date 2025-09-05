@@ -1,0 +1,14 @@
+[ 10%] Built target simple_publisher
+[ 20%] Built target simple_service_server
+[ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[ 40%] Built target simple_action_server
+[ 50%] Built target simple_service_client
+[ 60%] Built target simple_action_server_node
+[ 70%] Built target simple_action_client
+[ 80%] Built target simple_action_client_node
+[ 85%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable simple_parameter[0m
+[ 90%] Built target simple_parameter
+[ 95%] [32m[1mLinking CXX executable simple_subscriber[0m
+[ 95%] Built target simple_subscriber

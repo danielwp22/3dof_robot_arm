@@ -50,7 +50,7 @@ def generate_launch_description():
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory("ros_gz_sim"), "launch"), "/gz_sim.launch.py"]),
                 launch_arguments=[
-                    ("gz_args", [" -v 4 -r empty.sdf"]
+                    ("gz_args", [" -v 4 -r empty.sdf "]
                     )
                 ]
              )
@@ -67,7 +67,7 @@ def generate_launch_description():
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
-            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock"
         ]
     )
 

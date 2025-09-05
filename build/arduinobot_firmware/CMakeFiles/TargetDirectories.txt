@@ -1,0 +1,13 @@
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/uninstall.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/arduinobot_firmware_uninstall.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/simple_serial_receiver.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/simple_serial_transmitter.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/test.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/edit_cache.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/rebuild_cache.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/list_install_components.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install/local.dir
+/home/danielwp22/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install/strip.dir

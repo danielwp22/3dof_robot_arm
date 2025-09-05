@@ -1,0 +1,30 @@
+[1.468s] Invoking command in '/home/danielwp22/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs:/home/danielwp22/ros2_ws/install/my_robot_bringup:/home/danielwp22/ros2_ws/install/my_final_project:/home/danielwp22/ros2_ws/install/my_cpp_pkg:/home/danielwp22/ros2_ws/install/actions_cpp:/home/danielwp22/ros2_ws/install/my_robot_interfaces:/home/danielwp22/ros2_ws/install/my_robot_description:/home/danielwp22/ros2_ws/install/my_robot_arm_description:/home/danielwp22/ros2_ws/install/lifecycle_cpp:/home/danielwp22/ros2_ws/install/components_cpp:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/danielwp22/arduinobot_ws/build/arduinobot_cpp_examples -- -j4 -l4
+[5.738s] [  5%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[12.877s] [ 10%] [32m[1mLinking CXX executable simple_publisher[0m
+[13.192s] [ 10%] Built target simple_publisher
+[13.417s] [ 15%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[18.388s] [ 20%] [32m[1mLinking CXX executable simple_service_server[0m
+[18.661s] [ 20%] Built target simple_service_server
+[18.825s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[23.703s] [ 30%] [32m[1mLinking CXX executable simple_service_client[0m
+[24.087s] [ 30%] Built target simple_service_client
+[24.487s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[30.250s] [ 40%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+[31.168s] [ 40%] Built target simple_action_server
+[31.341s] [ 45%] [32mBuilding CXX object CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.o[0m
+[35.694s] [ 50%] [32m[1mLinking CXX executable simple_action_server_node[0m
+[35.931s] [ 50%] Built target simple_action_server_node
+[36.067s] [ 55%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[41.816s] [ 60%] [32m[1mLinking CXX shared library libsimple_action_client.so[0m
+[42.148s] [ 60%] Built target simple_action_client
+[42.316s] [ 65%] [32mBuilding CXX object CMakeFiles/simple_action_client_node.dir/rclcpp_components/node_main_simple_action_client_node.cpp.o[0m
+[46.590s] [ 70%] [32m[1mLinking CXX executable simple_action_client_node[0m
+[46.857s] [ 70%] Built target simple_action_client_node
+[47.215s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[47.847s] [01m[K/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_moveit_interface.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.h: No such file or directory
+[47.847s]     2 | #include [01;31m[K<moveit/move_group_interface/move_group_interface.h>[m[K
+[47.847s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.847s] compilation terminated.
+[47.852s] gmake[2]: *** [CMakeFiles/simple_moveit_interface.dir/build.make:76: CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o] Error 1
+[47.852s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/simple_moveit_interface.dir/all] Error 2
+[47.852s] gmake: *** [Makefile:146: all] Error 2

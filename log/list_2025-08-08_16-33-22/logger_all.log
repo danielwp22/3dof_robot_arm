@@ -1,0 +1,126 @@
+[8.611s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/danielwp22/arduinobot_ws']
+[8.611s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/danielwp22/arduinobot_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e5dcb1f8bf0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7e5dcb1f8b60>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7e5dcb1f8b60>>, mixin_verb=('list',))
+[9.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[9.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[9.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[9.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[9.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[9.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/danielwp22/arduinobot_ws'
+[9.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extensions ['ignore', 'ignore_ament_install']
+[9.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extension 'ignore'
+[9.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extension 'ignore_ament_install'
+[9.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extensions ['colcon_pkg']
+[9.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extension 'colcon_pkg'
+[9.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extensions ['colcon_meta']
+[9.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extension 'colcon_meta'
+[9.216s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extensions ['ros']
+[9.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extension 'ros'
+[9.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extensions ['cmake', 'python']
+[9.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extension 'cmake'
+[9.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extension 'python'
+[9.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extensions ['python_setup_py']
+[9.391s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws) by extension 'python_setup_py'
+[9.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[9.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/build) by extension 'ignore'
+[9.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/build) ignored
+[9.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[9.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/install) by extension 'ignore'
+[9.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/install) ignored
+[9.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[9.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/log) by extension 'ignore'
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/log) ignored
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extension 'ignore'
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extension 'ignore_ament_install'
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extensions ['colcon_pkg']
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extension 'colcon_pkg'
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extensions ['colcon_meta']
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extension 'colcon_meta'
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extensions ['ros']
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extension 'ros'
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extensions ['cmake', 'python']
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extension 'cmake'
+[9.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extension 'python'
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extensions ['python_setup_py']
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src) by extension 'python_setup_py'
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extension 'ignore'
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extension 'ignore_ament_install'
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extensions ['colcon_pkg']
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extension 'colcon_pkg'
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extensions ['colcon_meta']
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extension 'colcon_meta'
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extensions ['ros']
+[9.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_controller) by extension 'ros'
+[9.399s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielwp22/arduinobot_ws/src/arduinobot_controller' with type 'ros.ament_cmake' and name 'arduinobot_controller'
+[9.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[9.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'ignore'
+[9.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'ignore_ament_install'
+[9.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extensions ['colcon_pkg']
+[9.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'colcon_pkg'
+[9.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extensions ['colcon_meta']
+[9.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'colcon_meta'
+[9.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extensions ['ros']
+[9.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples) by extension 'ros'
+[9.402s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielwp22/arduinobot_ws/src/arduinobot_cpp_examples' with type 'ros.ament_cmake' and name 'arduinobot_cpp_examples'
+[9.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extensions ['ignore', 'ignore_ament_install']
+[9.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extension 'ignore'
+[9.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extension 'ignore_ament_install'
+[9.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extensions ['colcon_pkg']
+[9.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extension 'colcon_pkg'
+[9.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extensions ['colcon_meta']
+[9.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extension 'colcon_meta'
+[9.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extensions ['ros']
+[9.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_description) by extension 'ros'
+[9.460s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielwp22/arduinobot_ws/src/arduinobot_description' with type 'ros.ament_cmake' and name 'arduinobot_description'
+[9.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[9.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extension 'ignore'
+[9.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extension 'ignore_ament_install'
+[9.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extensions ['colcon_pkg']
+[9.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extension 'colcon_pkg'
+[9.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extensions ['colcon_meta']
+[9.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extension 'colcon_meta'
+[9.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extensions ['ros']
+[9.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_moveit) by extension 'ros'
+[9.462s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielwp22/arduinobot_ws/src/arduinobot_moveit' with type 'ros.ament_cmake' and name 'arduinobot_moveit'
+[9.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[9.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extension 'ignore'
+[9.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extension 'ignore_ament_install'
+[9.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extensions ['colcon_pkg']
+[9.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extension 'colcon_pkg'
+[9.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extensions ['colcon_meta']
+[9.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extension 'colcon_meta'
+[9.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extensions ['ros']
+[9.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_msgs) by extension 'ros'
+[9.464s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielwp22/arduinobot_ws/src/arduinobot_msgs' with type 'ros.ament_cmake' and name 'arduinobot_msgs'
+[9.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[9.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extension 'ignore'
+[9.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extension 'ignore_ament_install'
+[9.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extensions ['colcon_pkg']
+[9.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extension 'colcon_pkg'
+[9.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extensions ['colcon_meta']
+[9.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extension 'colcon_meta'
+[9.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extensions ['ros']
+[9.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples) by extension 'ros'
+[9.467s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples' with type 'ros.ament_python' and name 'arduinobot_py_examples'
+[9.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extensions ['ignore', 'ignore_ament_install']
+[9.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extension 'ignore'
+[9.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extension 'ignore_ament_install'
+[9.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extensions ['colcon_pkg']
+[9.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extension 'colcon_pkg'
+[9.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extensions ['colcon_meta']
+[9.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extension 'colcon_meta'
+[9.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extensions ['ros']
+[9.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_remote) by extension 'ros'
+[9.469s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielwp22/arduinobot_ws/src/arduinobot_remote' with type 'ros.ament_cmake' and name 'arduinobot_remote'
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extensions ['ignore', 'ignore_ament_install']
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extension 'ignore'
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extension 'ignore_ament_install'
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extensions ['colcon_pkg']
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extension 'colcon_pkg'
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extensions ['colcon_meta']
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extension 'colcon_meta'
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extensions ['ros']
+[9.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielwp22/arduinobot_ws/src/arduinobot_utils) by extension 'ros'
+[9.471s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielwp22/arduinobot_ws/src/arduinobot_utils' with type 'ros.ament_cmake' and name 'arduinobot_utils'
+[9.471s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

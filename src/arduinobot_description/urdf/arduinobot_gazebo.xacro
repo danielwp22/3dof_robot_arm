@@ -16,6 +16,6 @@
         <parameters>$(find arduinobot_controller)/config/arduinobot_controllers.yaml</parameters>
       </plugin>
     </xacro:unless>
-  </gazebo>
+</gazebo>
 
 </robot>

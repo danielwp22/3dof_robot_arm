@@ -1,0 +1,28 @@
+[27.243s] Invoking command in '/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples': AMENT_PREFIX_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/danielwp22/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/danielwp22/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/danielwp22/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[27.829s] running egg_info
+[27.883s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[27.884s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[27.884s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[27.885s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[27.885s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[27.969s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[27.979s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[27.980s] running build
+[27.980s] running build_py
+[27.980s] running install
+[27.988s] running install_lib
+[28.031s] running install_data
+[28.032s] running install_egg_info
+[28.074s] removing '/home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[28.074s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info
+[28.084s] running install_scripts
+[28.341s] Installing simple_action_client script to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[28.341s] Installing simple_action_server script to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[28.341s] Installing simple_moveit_interface script to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[28.342s] Installing simple_parameter script to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[28.342s] Installing simple_publisher script to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[28.342s] Installing simple_service_client script to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[28.342s] Installing simple_service_server script to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[28.342s] Installing simple_subscriber script to /home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[28.343s] writing list of installed files to '/home/danielwp22/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[28.381s] Invoked command in '/home/danielwp22/arduinobot_ws/src/arduinobot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/danielwp22/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danielwp22/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:/home/danielwp22/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/danielwp22/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/danielwp22/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data

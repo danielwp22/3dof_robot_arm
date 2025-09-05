@@ -5,7 +5,6 @@
 /home/danielwp22/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
 /home/danielwp22/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
 /home/danielwp22/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
-/home/danielwp22/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
 /home/danielwp22/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
 /home/danielwp22/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
 /home/danielwp22/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
