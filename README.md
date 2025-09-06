@@ -32,7 +32,7 @@ A custom-built **3-DOF robotic manipulator** created with **3D printed parts**, 
 
 ---
 
-## 📷 Image
+## 📷 Picture of arm
 ![3-DOF Arm in Gazebo](https://i.imgur.com/xQnlvgt.jpeg)
 
 ---
